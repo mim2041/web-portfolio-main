@@ -45,8 +45,8 @@ const ParticlesJS = () => {
                             quantity: 4,
                         },
                         repulse: {
-                            distance: 200,
-                            duration: 10,
+                            distance: 100,
+                            duration: 0,
                         },
                     },
                 },
@@ -56,7 +56,7 @@ const ParticlesJS = () => {
                     },
                     links: {
                         color: "#ab40ff",
-                        distance: 160,
+                        distance: 150,
                         enable: true,
                         opacity: 0.5,
                         width: 1,

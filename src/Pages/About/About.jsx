@@ -3,7 +3,7 @@ import profile from '../../assets/images/profile.png'
 
 const About = () => {
     return (
-        <div className='flex'>
+        <div className='flex text-white' style={{ position: 'relative'}}>
             <div className='w-1/2'>
                 <img src={profile} alt="" />
             </div>
