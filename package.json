@@ -12,13 +12,17 @@
   "dependencies": {
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
+    "particlesjs": "^2.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-particles": "^2.10.1",
+    "react-progressbar": "^15.4.1",
     "react-router-dom": "^6.14.0",
     "react-simple-typewriter": "^5.0.1",
-    "sort-by": "^1.2.0"
+    "react-tsparticles": "^2.10.1",
+    "sort-by": "^1.2.0",
+    "tsparticles": "^2.10.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
