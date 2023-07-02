@@ -45,14 +45,14 @@
     },
     {
       "_id": "649fad9404ea230837b5f7a7",
-      "picture": "http://placehold.it/32x32",
-      "name": "Meal DB",
-      "category": "react",
-      "description": "Excepteur laboris et esse elit laborum anim nostrud pariatur. Reprehenderit quis nulla fugiat sunt nulla Lorem. Ex est laborum et fugiat qui Lorem adipisicing ullamco magna. Sint dolor tempor nulla fugiat est. Commodo laborum occaecat occaecat ullamco tempor sit incididunt culpa. Minim culpa enim labore velit sint. Cupidatat sit irure veniam aute officia deserunt magna est.\r\n",
-      "features": "Enim proident elit duis sunt in eu in in. Irure adipisicing fugiat fugiat sint sint ullamco Lorem veniam ipsum amet laboris cupidatat. Laborum proident nostrud cillum ipsum amet irure nulla sint dolore cupidatat exercitation ut.\r\n",
-      "technologies": "Ex cillum aliqua labore sunt velit adipisicing dolore pariatur velit adipisicing enim cupidatat pariatur quis. Velit aliquip consequat excepteur ut est occaecat enim occaecat aute sit anim reprehenderit occaecat. Veniam aute sint quis cupidatat cupidatat ut do consequat consequat quis nulla. Non nostrud ullamco id pariatur qui pariatur duis exercitation eiusmod quis. Nulla esse et ut ut in non nulla. Mollit velit enim aliqua velit ut.\r\n",
-      "live": "https://stellular-croquembouche-d4ee62.netlify.app/",
-      "github": "https://github.com/mim2041/react-router-rest-countries"
+      "picture": "https://i.ibb.co/82Q7C8w/vermillion-swan-160c5d-netlify-app-Samsung-Galaxy-S20-Ultra.png",
+      "name": "Snake Game",
+      "category": "html",
+      "description": "This is a simple snake game website. I is developed with row html, css and javascript.\r\n",
+      "features": "A simple snake game website\r\n",
+      "technologies": "HTML, CSS, JavaScript\r\n",
+      "live": "https://vermillion-swan-160c5d.netlify.app/",
+      "github": "https://github.com/mim2041/snake-game"
     },
     {
       "_id": "649fad94ee2a62435d9acd33",
