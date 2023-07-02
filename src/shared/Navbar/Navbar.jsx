@@ -9,7 +9,7 @@ const Navbar = () => {
                 <Link to='/'><FaHome/></Link>
                 <Link to='/about'><FaUserAlt/></Link>
                 <Link to="/skills"><FaReact/></Link>
-                <Link><AiFillProject/></Link>
+                <Link to='/projects'><AiFillProject/></Link>
                 <Link><FaFileContract/></Link>
             </nav>
         </div>
