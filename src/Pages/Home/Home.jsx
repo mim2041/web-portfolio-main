@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import bg1 from '../../assets/images/bg1.jpg';
+// import bg1 from '../../assets/images/bg1.jpg';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import profile from '../../assets/images/profile.png';
+import profile from '../../assets/images/profile.jpeg';
 import ParticlesJS from '../../components/Particles';
 // import Particles from 'react-tsparticles';
 import { AiOutlineArrowRight } from "react-icons/ai";

@@ -1,4 +1,3 @@
-import profile from '../../assets/images/profile.png'
 
 
 const About = () => {

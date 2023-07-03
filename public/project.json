@@ -68,9 +68,9 @@
     {
       "_id": "649fad94e285cfe028606d3d",
       "picture": "https://i.ibb.co/Gvnxtm6/dashing-valkyrie-22fbb0-netlify-app-Samsung-Galaxy-S20-Ultra.png",
-      "name": "Carrer Club",
+      "name": "Carrier Club",
       "category": "react",
-      "description": "This is basically a job soruces website. Job lists are displayed in a decorated manner. There are 4 pages in this website. React router is used to navigate to these pages.\r\n",
+      "description": "This is basically a job sources website. Job lists are displayed in a decorated manner. There are 4 pages in this website. React router is used to navigate to these pages.\r\n",
       "features": "A responsive website build using React & React Router.\r\n",
       "technologies": "React JS, JSX, Tailwind CSS, Axios, Rechart, Context API\r\n",
       "live": "https://dashing-valkyrie-22fbb0.netlify.app",

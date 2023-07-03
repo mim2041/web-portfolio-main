@@ -25,11 +25,10 @@ const Projects = () => {
   const categoriesArray = ['HTML_CSS', 'Frameworks', 'DOM', 'API', 'React', 'Backend'];
 
   return (
-    <div className="text-white" style={{ position: 'relative'}}>
-      <p className="text-white text-5xl">Length: {projects.length}</p>
+    <div className="text-white mx-8 lg:mx-24" style={{ position: 'relative'}}>
       <h1 className="text-3xl font-bold bg-clip-text bg-gradient-to-r from-violet-700 to-pink-500 text-center my-8">My Projects</h1>
 
-        <div className="text-center">
+        <div className="text-center mt-12">
           <Tabs>
           <TabList>
             <Tab>All Projects</Tab>
@@ -39,34 +38,53 @@ const Projects = () => {
           </TabList>
 
           <TabPanel>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center">
             {
               projects.map(project => <Project key={project._id} project={project}></Project>)
             }
+            </div>
           </TabPanel>
             <TabPanel>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center">
+              {
+                HTML_CSS.map(project => <Project key={project._id} project={project}></Project>)
+              }
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {
                 Frameworks.map(project => <Project key={project._id} project={project}></Project>)
               }
+              </div>
             </TabPanel>
             <TabPanel>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {
                 DOM.map(project => <Project key={project._id} project={project}></Project>)
               }
+              </div>
             </TabPanel>
             <TabPanel>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {
                 API.map(project => <Project key={project._id} project={project}></Project>)
               }
+              </div>
             </TabPanel>
             <TabPanel>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {
                 React.map(project => <Project key={project._id} project={project}></Project>)
               }
+              </div>
             </TabPanel>
             <TabPanel>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {
                 Backend.map(project => <Project key={project._id} project={project}></Project>)
               }
+              </div>
             </TabPanel>
         </Tabs>
         </div>
