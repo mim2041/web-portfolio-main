@@ -1,10 +1,4 @@
 
-const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = '../../../public/Cover letter.pdf';
-    link.download = 'resume.pdf';
-    link.click();
-}
 
 const About = () => {
     return (
@@ -12,10 +6,15 @@ const About = () => {
             
             <div className=' flex flex-col justify-center'>
                 <div>
-                <h1 className='text-3xl'>About Me</h1>
-                <p className='text-center lg:w-1/2 mx-auto my-8'>Hello I am <span>Mim Khatun</span>. I am a student of B.Sc in Information Technology <span>(IT)</span>, Jahangirnagar University. I am a Full Stack Developer. I am a <span>Quick Learner</span>. Passionate and driven developer with a relentless pursuit of excellence in crafting elegant and efficient code solutions. Strong problem-solving skills, hard working capabilities enable me to identify and resolve complex technical challenges efficiently.</p>
+                <h1 className="font-bold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-purple-700 to-pink-500"
+            style={{ linearGradient: "to right, #51087E, #B24BF3" }}>About Me</h1>
+                <p className='text-center lg:w-3/4 mx-auto my-8'>Hello I am <span>Mim Khatun</span>. I am a student of B.Sc in Information Technology <span>(IT)</span>, Jahangirnagar University. I am a Full Stack Developer. I am a <span>Quick Learner</span>. Passionate and driven developer with a relentless pursuit of excellence in crafting elegant and efficient code solutions. Strong problem-solving skills, hard working capabilities enable me to identify and resolve complex technical challenges efficiently.</p>
                 </div>
-                <div className='flex gap-10  mx-auto'>
+                <div className='flex gap-10 flex-col lg:flex-row mx-auto'>
+                    <div className='border p-8 rounded-lg'>
+                        <h1 className='text-3xl font-bold text-pink-800'>2 years+</h1>
+                        <p>Practicing Programming</p>
+                    </div>
                     <div className='border p-8 rounded-lg'>
                         <h1 className='text-3xl font-bold text-pink-800'>30+</h1>
                         <p>Completed Projects</p>
@@ -25,7 +24,7 @@ const About = () => {
                         <p>Problem Solved</p>
                     </div>
                 </div>
-                <button onClick={handleDownload} className='flex items-center justify-center gap-2 text-2xl text-white bg-gradient-to-r from-purple-900 to-purple-400 py-2 px-4 rounded-lg lg:w-1/3 mx-auto my-8'>Download Resume</button>
+                
             </div>
         </div>
     );

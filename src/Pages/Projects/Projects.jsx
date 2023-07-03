@@ -15,6 +15,10 @@ const Projects = () => {
       });
   }, []);
 
+  const handleViewAll = () => {
+    
+  }
+
   const HTML_CSS = projects.filter(project => project.category === 'html');
   const Frameworks = projects.filter(project => project.category === 'frameworks');
   const DOM = projects.filter(project => project.category === 'dom');

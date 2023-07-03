@@ -1,0 +1,12 @@
+.box{
+    border: 2px solid black;
+    transition: border-color 0.3s ease;
+    box-shadow: 16px 14px 20px #5C00A3;
+    cursor: pointer;
+}
+
+
+contactme::after{
+    width: 190px;
+    height: 190px;
+}
