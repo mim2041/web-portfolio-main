@@ -10,7 +10,7 @@ const Navbar = () => {
                 <Link to='/about'><FaUserAlt/></Link>
                 <Link to="/skills"><FaReact/></Link>
                 <Link to='/projects'><AiFillProject/></Link>
-                <Link><FaFileContract/></Link>
+                <Link to="/contact"><FaFileContract/></Link>
             </nav>
         </div>
     );

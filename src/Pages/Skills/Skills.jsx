@@ -4,7 +4,7 @@ import Progress from 'react-progressbar';
 const Skills = () => {
 
     return (
-        <div  style={{ position: 'relative'}}>
+        <div className="mb-24" style={{ position: 'relative'}}>
             <h1 className="text-3xl font-bold text-transparent  bg-clip-text bg-gradient-to-r from-violet-800 to-pink-700 text-center mt-10">My Skills</h1>
             <div className="flex text-white flex-col lg:flex-row">
             <div className="w-1/2 m-12">

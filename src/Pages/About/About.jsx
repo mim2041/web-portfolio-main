@@ -1,4 +1,10 @@
 
+const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '../../../public/Cover letter.pdf';
+    link.download = 'resume.pdf';
+    link.click();
+}
 
 const About = () => {
     return (
@@ -19,7 +25,7 @@ const About = () => {
                         <p>Problem Solved</p>
                     </div>
                 </div>
-                <button className='flex items-center justify-center gap-2 text-2xl text-white bg-gradient-to-r from-purple-900 to-purple-400 py-2 px-4 rounded-lg lg:w-1/3 mx-auto my-8'>Download Resume</button>
+                <button onClick={handleDownload} className='flex items-center justify-center gap-2 text-2xl text-white bg-gradient-to-r from-purple-900 to-purple-400 py-2 px-4 rounded-lg lg:w-1/3 mx-auto my-8'>Download Resume</button>
             </div>
         </div>
     );
